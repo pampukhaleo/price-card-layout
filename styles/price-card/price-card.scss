@@ -1,0 +1,93 @@
+@import "../variables";
+
+.green {
+  background-color: $green;
+}
+
+.blue {
+  background-color: $blue;
+}
+
+.orange {
+  background-color: $orange;
+}
+
+.badge {
+  position: relative;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  margin-left: 18px;
+  text-align: center;
+  background-color: $card-bg;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.087466);
+  position: relative;
+
+  &__title-container {
+    padding: 33px 0;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: $text-bold;
+    font-size: 35px;
+    line-height: 43px;
+
+    &-text {
+      font-weight: $text-light;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  &__price {
+    padding: 19px 110px;
+    font-weight: $text-bold;
+    font-size: 55px;
+    line-height: 67px;
+  }
+
+  &__description {
+    padding: 40px 26px;
+    font-weight: $text-light;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  &__options-list {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+
+    & > li:nth-child(odd) {
+      background-color: $list-odd-bg;
+    }
+
+    &_item {
+      list-style-type: none;
+      padding: 16px 0;
+      font-weight: $text-light;
+      font-size: 15px;
+      line-height: 18px;
+
+      & img {
+        margin-left: 22px;
+        margin-right: 18px;
+      }
+    }
+  }
+
+  &__order-btn {
+    padding: 12px 27px;
+    margin-top: 39px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    color: $white;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

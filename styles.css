@@ -1,0 +1,126 @@
+.green {
+  background-color: #5BB189;
+}
+
+.blue {
+  background-color: #3A6BA5;
+}
+
+.orange {
+  background-color: #EC632A;
+}
+
+.badge {
+  position: relative;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  margin-left: 18px;
+  text-align: center;
+  background-color: #334247;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.087466);
+  position: relative;
+}
+.price-card__title-container {
+  padding: 33px 0;
+}
+.price-card__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+}
+.price-card__title-text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+.price-card__price {
+  padding: 19px 110px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+}
+.price-card__description {
+  padding: 40px 26px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.price-card__options-list {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.price-card__options-list > li:nth-child(odd) {
+  background-color: #2A3438;
+}
+.price-card__options-list_item {
+  list-style-type: none;
+  padding: 16px 0;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.price-card__options-list_item img {
+  margin-left: 22px;
+  margin-right: 18px;
+}
+.price-card__order-btn {
+  padding: 12px 27px;
+  margin-top: 39px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.badge {
+  width: 122px;
+  height: 123px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.badge__content {
+  width: 147px;
+  padding: 3px 0;
+  display: block;
+  position: absolute;
+  left: 7px;
+  top: 28px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #DC3F45;
+  transform: rotate(45deg);
+  text-transform: uppercase;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Montserrat, sans-serif;
+  background-color: #141b1c;
+}
+
+.page-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.page-container section:first-child {
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
