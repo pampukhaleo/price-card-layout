@@ -1,4 +1,4 @@
-Price card layout [https://pampukhaleo.github.io/Price-Card-Layout/]
+[Price card layout](https://pampukhaleo.github.io/Price-Card-Layout/)
 
 The tech stack is:
 - HTML5
